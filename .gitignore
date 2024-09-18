@@ -11,5 +11,5 @@ node_modules/
 # Ignore React build files
 build/
 
-# Ignore your specific directories or files
-react-jokes-classes/
+
+
