@@ -1,0 +1,15 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore node_modules directory
+node_modules/
+
+
+# Ignore log files
+*.log
+
+# Ignore React build files
+build/
+
+# Ignore your specific directories or files
+react-jokes-classes/
