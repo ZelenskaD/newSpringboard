@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@500&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+/* Card container */
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift on hover */
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    font-size: 17px;
+    color: #666;
+    font-family: "Merriweather", serif;
+    font-style: italic;
+
+}
+
+/* Image styling (for logos or icons) */
+.card-img-top {
+    max-width: 60px;
+    max-height: 60px;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Container for the search bar */
+.search-bar {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    background-color: #6A5ACD; /*SlateBlue color*/
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+/* General container layout for cards */
+.card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+
+/* Adding some padding to the page */
+.page-container {
+    padding: 40px;
+    background-size: 500px;
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repetition */
+    min-height: 100vh; /* Ensures the full viewport height is covered */
+}
+
+
+
+
+/* Style for the 'Apply' button */
+.btn-apply {
+    background-color: #7B68EE ;/* MediumSlateBlue color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-apply:hover {
+    background-color: #9370DB /* Medium purple on hover */
+}
+
+/* Style for the 'Applied' button */
+.btn-applied {
+    background-color: #DDA0DD; /* Plum color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: not-allowed;
+    opacity: 0.7;
+}

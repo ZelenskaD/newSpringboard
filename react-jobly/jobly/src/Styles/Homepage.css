@@ -1,0 +1,134 @@
+/* Applied Jobs Section Container */
+.applied-jobs-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 40px auto; /* Center the applied jobs list */
+    padding: 20px;
+    background-color:rgba(102, 51, 153, 0.5); /* 50% transparent */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.applied-job {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.applied-job:hover {
+    transform: translateY(-5px); /* Lift on hover */
+}
+
+.applied-job-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #6A5ACD;
+}
+
+.applied-job-company {
+    font-size: 18px;
+    color: #666;
+    font-family: "Merriweather", serif;
+}
+
+.applied-job-salary, .applied-job-equity {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Style for the 'Applied' status */
+.applied-job-status {
+    font-size: 16px;
+    color: #7B68EE; /* MediumSlateBlue */
+    font-weight: bold;
+    background-color: #DDA0DD; /* Plum background */
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+/* Container for the applied jobs heading */
+.applied-jobs-header {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+h3{
+    color:#6A5ACD;
+}
+
+
+
+/* Container for greetings/welcome messages */
+.greetings {
+    background-color: rgba(255, 255, 255, 0.8);  /* White with transparency */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);  /* Soft shadow for depth */
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    /*margin-left: 700px;*/
+
+}
+
+.applied-jobs{
+    background-color: rgba(255, 255, 255, 0.8);  /* White with transparency */
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);  /* Soft shadow for depth */
+
+    display: flex;
+
+}
+
+/* Greeting text */
+h1 {
+    color: #4B0082;  /* Indigo color */
+    font-family: 'Merriweather', serif;  /* Custom font */
+    margin-bottom: 20px;
+}
+
+.nav-link-log {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #6A5ACD; /* SlateBlue background */
+    color: white;
+    text-decoration: none; /* Remove underline from the link */
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Merriweather', serif;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link-log:hover {
+    background-color: #483D8B; /* Darker SlateBlue on hover */
+}
+
+/* Optional - add a little box shadow for a button effect */
+.nav-link-log {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link-log:active {
+    background-color: #836FFF; /* Slightly lighter when clicked */
+}
+
+.button-container {
+    display:inline-block;
+    text-align: center;
+    margin-top: 20px; /* Add some space between the welcome message and buttons */
+}

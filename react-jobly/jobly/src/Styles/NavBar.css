@@ -1,0 +1,43 @@
+.navbar-custom {
+    background-color: white; /* Keep the navbar white */
+    border-bottom: 1px solid #ddd; /* Subtle border at the bottom */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Ensure space between brand and links */
+    align-items: center;
+}
+
+.navbar-brand {
+    font-family: "Merriweather", serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Flexbox layout for the navigation items */
+.nav {
+    display: flex;
+    list-style-type: none; /* Remove default bullets */
+    margin: 0; /* Remove margin to avoid spacing issues */
+    padding: 0;
+    font-family: "Merriweather", serif;
+
+}
+
+/* Space between Nav items */
+.nav-item {
+    margin-left: 20px; /* Space between links */
+}
+
+.nav-link {
+    color: mediumpurple;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.nav-link:hover {
+    color: grey; /* Subtle hover effect */
+}
